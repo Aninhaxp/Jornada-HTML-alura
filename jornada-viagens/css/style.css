@@ -1,18 +1,22 @@
 
 @font-face {
-    font-family: "Monterrat";
+    font-family: "Montserrat";
     src: url(..fonts/Monterrat-VariableFont_wght.ttf);
     font-style: normal;
     font-display: swap;
 }
 
 :root {
+    
+    --primary-color: #8F0101;
+    --secundary-color: #B81515;
+    
     --background-primary-color: #ffffff;
     --background-primary-color: #f5f5f5;
     --background-primary-color: #0000;
     
-    --butoon-primary-color: #8F0101;
-    --butoon-primary-color: #B81515;
+    --primary-color: #8F0101;
+    --primary-color: #B81515;
 
     --text-primary-color: #222222;
     --text-secondary-color: #FFFFFF;
@@ -32,6 +36,7 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
 }
 
 h1 {
-    color: var(--butoon-primary-color);
-    color: var(--text-weight);
+    font-family: "Montserrat";
+    font-weight: var(--text-weight);
+    color: var(--secundary-color);
 }
