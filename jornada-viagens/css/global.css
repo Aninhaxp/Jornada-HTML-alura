@@ -25,15 +25,24 @@
 
 }
 
-
-body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
+/* CSS RESET */
+body, 
+img, 
+h1, 
+p, 
+fieldset, 
+legend, 
+label, 
+input, 
+select, 
+textarea, 
+button {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-h1 {
+body {
     font-family: "Montserrat";
-    font-weight: var(--text-weight);
-    color: var(--secundary-color);
+    color: var(--text-primary-color);
 }
