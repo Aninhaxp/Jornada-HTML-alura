@@ -72,7 +72,7 @@ section {
 .section-title hr {
     width: 180px;
     height: 4px;
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     border: none;
     margin: 16px auto 32px;
 }
