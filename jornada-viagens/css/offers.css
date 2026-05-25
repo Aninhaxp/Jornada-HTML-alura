@@ -18,7 +18,7 @@
 }
 
 
-.card header {
+.offers-cards .card header {
     display: block;
     background-color: transparent;
     padding: 0;
@@ -26,7 +26,7 @@
     margin-bottom: 24px;    
 }
 
-.card header p {
+.offers-cards .card header p {
     font-size: 20px;
     font-weight: var(--text-weight);
 }
